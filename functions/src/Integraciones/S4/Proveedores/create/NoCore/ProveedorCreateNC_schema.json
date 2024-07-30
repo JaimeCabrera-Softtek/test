@@ -1,0 +1,266 @@
+{
+  "type": "object",
+  "properties": {
+    "Proveedor": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "grupoCuentas": {
+              "type": "string"
+            },
+            "proveedor": {
+              "type": "string"
+            },
+            "tratamiento": {
+              "type": "string"
+            },
+            "nombreProveedor1": {
+              "type": "string"
+            },
+            "nombreProveedor2": {
+              "type": "string"
+            },
+            "nombreProveedor3": {
+              "type": "string"
+            },
+            "nombreProveedor4": {
+              "type": "string"
+            },
+            "rfc": {
+              "type": "string"
+            },
+            "calleNumero": {
+              "type": "string"
+            },
+            "distrito": {
+              "type": "string"
+            },
+            "problacion": {
+              "type": "string"
+            },
+            "region": {
+              "type": "string"
+            },
+            "pais": {
+              "type": "string"
+            },
+            "codigoPostal": {
+              "type": "string"
+            },
+            "telefono": {
+              "type": "string"
+            },
+            "mail": {
+              "type": "string"
+            },
+            "vendedor": {
+              "type": "string"
+            },
+            "busqueda": {
+              "type": "string"
+            },
+            "Comercial": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "marca": {
+                      "type": "string"
+                    },
+                    "banner": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ],
+                      "minItems": 1
+                    },
+                    "plazoPago": {
+                      "type": "string"
+                    },
+                    "aperturas": {
+                      "type": "string"
+                    },
+                    "margen": {
+                      "type": "string"
+                    },
+                    "conversionBookings": {
+                      "type": "string"
+                    },
+                    "devolucionAcuerdo": {
+                      "type": "string"
+                    },
+                    "devolucionDefecto": {
+                      "type": "string"
+                    },
+                    "promocionesRebajas": {
+                      "type": "string"
+                    },
+                    "reevaluacionInventario": {
+                      "type": "string"
+                    },
+                    "planMkt": {
+                      "type": "string"
+                    },
+                    "retiroMercancia": {
+                      "type": "string"
+                    },
+                    "penalizacion": {
+                      "type": "string"
+                    },
+                    "porFaltante": {
+                      "type": "string"
+                    },
+                    "fillRate": {
+                      "type": "string"
+                    },
+                    "otif": {
+                      "type": "string"
+                    },
+                    "merma": {
+                      "type": "string"
+                    },
+                    "entregaDirectoTienda": {
+                      "type": "string"
+                    },
+                    "porSobrante": {
+                      "type": "string"
+                    },
+                    "penalizacionFr": {
+                      "type": "string"
+                    },
+                    "penalizacionOtif": {
+                      "type": "string"
+                    },
+                    "logisticaCedis": {
+                      "type": "string"
+                    },
+                    "inversionMobiliario": {
+                      "type": "string"
+                    },
+                    "regimenCapital": {
+                      "type": "string"
+                    },
+                    "actividadEconomica": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ],
+                      "minItems": 1
+                    },
+                    "canal": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["banner", "regimenCapital", "actividadEconomica"]
+                }
+              ],
+              "maxItems": 1
+            },
+            "CuentaBanco": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "pais": {
+                      "type": "string"
+                    },
+                    "clave": {
+                      "type": "string"
+                    },
+                    "cuenta": {
+                      "type": "string"
+                    },
+                    "nombre": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["id", "pais", "clave", "cuenta", "nombre"]
+                }
+              ],
+              "maxItems": 1
+            },
+            "Sociedad": {
+              "type": "object",
+              "properties": {
+                "sociedad": {
+                  "type": "string"
+                },
+                "cuentaAsociada": {
+                  "type": "string"
+                },
+                "condicionPago": {
+                  "type": "string"
+                },
+                "viasPago": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "sociedad",
+                "cuentaAsociada",
+                "condicionPago",
+                "viasPago"
+              ]
+            },
+            "Compras": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "orgCompras": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ],
+                      "minItems": 1
+                    }
+                  },
+                  "required": ["orgCompras"]
+                }
+              ],
+              "minItems": 1
+            }
+          },
+          "required": [
+            "grupoCuentas",
+            "proveedor",
+            "tratamiento",
+            "nombreProveedor1",
+            "rfc",
+            "calleNumero",
+            "distrito",
+            "problacion",
+            "region",
+            "pais",
+            "codigoPostal",
+            "telefono",
+            "mail",
+            "vendedor",
+            "busqueda",
+            "Sociedad",
+            "Compras"
+          ]
+        }
+      ],
+      "minItems": 1
+    },
+    "idProveedorFS": {
+      "type": "string"
+    }
+  },
+  "required": ["Proveedor", "idProveedorFS"]
+}

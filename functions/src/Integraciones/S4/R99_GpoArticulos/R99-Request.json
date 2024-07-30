@@ -1,0 +1,159 @@
+{
+    "GruposArticulos": [{
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC05762",
+            "descripcion": "ANUNCIOS LUMINOSOS",
+            "numero2": "00",
+            "enlaceGrupos": "CACC05"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC05",
+            "descripcion": "CONSTRUCCION",
+            "numero2": "01",
+            "enlaceGrupos": "CAC"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CAC",
+            "descripcion": "ACTIVOS",
+            "numero2": "02",
+            "enlaceGrupos": "C"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "C",
+            "descripcion": "CONSUMOS INTERNOS",
+            "numero2": "03"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC05763",
+            "descripcion": "PISO",
+            "numero2": "00",
+            "enlaceGrupos": "CACC05"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC05",
+            "descripcion": "CONSTRUCCION",
+            "numero2": "01",
+            "enlaceGrupos": "CAC"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CAC",
+            "descripcion": "ACTIVOS",
+            "numero2": "02",
+            "enlaceGrupos": "C"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "C",
+            "descripcion": "CONSUMOS INTERNOS",
+            "numero2": "03"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC06764",
+            "descripcion": "EQUIPO DE AUDIO",
+            "numero2": "00",
+            "enlaceGrupos": "CACC06"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC06",
+            "descripcion": "MOBILIARIO Y EQUIPO DE OFICINA",
+            "numero2": "01",
+            "enlaceGrupos": "CAC"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CAC",
+            "descripcion": "ACTIVOS",
+            "numero2": "02",
+            "enlaceGrupos": "C"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "C",
+            "descripcion": "CONSUMOS INTERNOS",
+            "numero2": "03"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC06765",
+            "descripcion": "MOBILIARIO DE BODEGA",
+            "numero2": "00",
+            "enlaceGrupos": "CACC06"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC06",
+            "descripcion": "MOBILIARIO Y EQUIPO DE OFICINA",
+            "numero2": "01",
+            "enlaceGrupos": "CAC"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CAC",
+            "descripcion": "ACTIVOS",
+            "numero2": "02",
+            "enlaceGrupos": "C"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "C",
+            "descripcion": "CONSUMOS INTERNOS",
+            "numero2": "03"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC06766",
+            "descripcion": "MOBILIARIO PISO DE V",
+            "numero2": "00",
+            "enlaceGrupos": "CACC06"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CACC06",
+            "descripcion": "MOBILIARIO Y EQUIPO DE OFICINA",
+            "numero2": "01",
+            "enlaceGrupos": "CAC"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "CAC",
+            "descripcion": "ACTIVOS",
+            "numero2": "02",
+            "enlaceGrupos": "C"
+        }, {
+            "centro": "0000000001",
+            "fechaActivacion": "20240117",
+            "fechaModificacion": "00000000",
+            "numero": "C",
+            "descripcion": "CONSUMOS INTERNOS",
+            "numero2": "03"
+        }
+    ]
+}

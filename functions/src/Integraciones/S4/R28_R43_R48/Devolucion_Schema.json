@@ -1,0 +1,170 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                "Pedido": {
+                    "type": "object",
+                    "properties": {
+                        "moneda": {
+                            "type": "string"
+                        },
+                        "condicionPago": {
+                            "type": "string"
+                        },
+                        "claseDocumento": {
+                            "type": "string"
+                        },
+                        "numeroDocumento": {
+                            "type": "string"
+                        },
+                        "organizacionCompras": {
+                            "type": "string"
+                        },
+                        "grupoCompras": {
+                            "type": "string"
+                        },
+                        "sociedad": {
+                            "type": "string"
+                        },
+                        "fechaDocumento": {
+                            "type": "string"
+                        },
+                        "nombreProveedor": {
+                            "type": "string"
+                        },
+                        "canal": {
+                            "type": "string"
+                        },
+                        "proveedor": {
+                            "type": "string"
+                        },
+                        "centroEntrega": {
+                            "type": "string"
+                        },
+                        "nombre": {
+                            "type": "string"
+                        },
+                        "direccion": {
+                            "type": "string"
+                        },
+                        "ciudad": {
+                            "type": "string"
+                        },
+                        "cp": {
+                            "type": "string"
+                        },
+                        "pais": {
+                            "type": "string"
+                        },
+                        "estado": {
+                            "type": "string"
+                        },
+                        "incoterms": {
+                            "type": "string"
+                        },
+                        "lugarIncoterms": {
+                            "type": "string"
+                        },
+                        "E1EDP01": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "posicion": {
+                                        "type": "string"
+                                    },
+                                    "accion": {
+                                        "type": "string"
+                                    },
+                                    "tipoPosicion": {
+                                        "type": "string"
+                                    },
+                                    "cantidad": {
+                                        "type": "string"
+                                    },
+                                    "unidadMedida": {
+                                        "type": "string"
+                                    },
+                                    "costoUnitario": {
+                                        "type": "string"
+                                    },
+                                    "precioNeto": {
+                                        "type": "string"
+                                    },
+                                    "grupoArticulos": {
+                                        "type": "string"
+                                    },
+                                    "centro": {
+                                        "type": "string"
+                                    },
+                                    "almacen": {
+                                        "type": "string"
+                                    },
+                                    "materialProveedor": {
+                                        "type": "string"
+                                    },
+                                    "numeroMaterial": {
+                                        "type": "string"
+                                    },
+                                    "descripcion": {
+                                        "type": "string"
+                                    },
+                                    "precioVenta": {
+                                        "type": "string"
+                                    },
+                                    "marca": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "posicion",
+                                    "accion",
+                                    "tipoPosicion",
+                                    "cantidad",
+                                    "unidadMedida",
+                                    "costoUnitario",
+                                    "precioNeto",
+                                    "grupoArticulos",
+                                    "centro",
+                                    "almacen",
+                                    "materialProveedor",
+                                    "numeroMaterial",
+                                    "descripcion",
+                                    "precioVenta",
+                                    "marca"
+                                ]
+                            }
+                        }
+                    },
+                    "required": [
+                        "moneda",
+                        "condicionPago",
+                        "claseDocumento",
+                        "numeroDocumento",
+                        "organizacionCompras",
+                        "grupoCompras",
+                        "sociedad",
+                        "fechaDocumento",
+                        "nombreProveedor",
+                        "canal",
+                        "proveedor",
+                        "centroEntrega",
+                        "nombre",
+                        "direccion",
+                        "ciudad",
+                        "cp",
+                        "pais",
+                        "estado",
+                        "incoterms",
+                        "lugarIncoterms"
+                    ]
+                }
+            },
+            "required": [
+                "Pedido"
+            ]
+        }
+    }
+}

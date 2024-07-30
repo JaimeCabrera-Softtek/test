@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "jobID": {
+            "type": "string"
+        },
+        "segment": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "jobID",
+        "segment"
+    ]
+}

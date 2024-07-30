@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "selection": {
+      "type": "object"
+    }
+  },
+  "required": ["selection"]
+}

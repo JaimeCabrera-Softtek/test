@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "properties": {
+        "notificaciones": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "articulo": {
+                            "type": "string"
+                        },
+                        "codigoInterno": {
+                            "type": "string"
+                        },
+                        "messageArticulo": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "returnType": {
+                                            "type": "string"
+                                        },
+                                        "returnId": {
+                                            "type": "string"
+                                        },
+                                        "returnNumber": {
+                                            "type": "string"
+                                        },
+                                        "returnMessage": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "returnType",
+                                        "returnId",
+                                        "returnNumber",
+                                        "returnMessage"
+                                    ]
+                                }
+                            ],
+                            "minItems": 1
+                        }
+                    },
+                    "required": [
+                        "articulo",
+                        "codigoInterno"
+                    ]
+                }
+            ],
+            "minItems": 1
+        }
+    },
+    "required": [
+        "notificaciones"
+    ]
+}

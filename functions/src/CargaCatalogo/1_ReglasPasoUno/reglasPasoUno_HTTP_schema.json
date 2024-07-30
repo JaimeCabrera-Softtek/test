@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "catalog": {
+      "type": "array",
+      "minItems": 1
+    },
+    "cabecera": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ID Catálogo": {
+            "type": "string"
+          },
+          "ID proveedor SAP": {
+            "type": "string"
+          },
+          "Temporada": {
+            "type": "string"
+          },
+          "ID Marca": {
+            "type": "string"
+          },
+          "Año": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "ID Catálogo",
+          "ID proveedor SAP",
+          "Temporada",
+          "ID Marca",
+          "Año"
+        ]
+      }
+    }
+  },
+  "required": ["cabecera", "catalog"]
+}

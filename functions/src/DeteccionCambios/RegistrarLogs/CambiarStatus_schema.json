@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "object"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "required": ["items", "approved"]
+}

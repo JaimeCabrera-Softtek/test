@@ -1,0 +1,111 @@
+{
+  "type": "object",
+  "properties": {
+    "cpi": {
+      "type": "object",
+      "properties": {
+        "EnviaAsn": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "asn": { "type": "string" },
+              "fechaEmbarque": { "type": "string" },
+              "fechaEntrega": { "type": "string" },
+              "horaEntrega": { "type": "string" },
+              "proveedor": { "type": "string" },
+              "OrdenCompra": { "type": "string" },
+              "centroDistribucion": { "type": "string" },
+              "shipmentNumber": { "type": "string" },
+              "Cajas": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "tienda": { "type": "string" },
+                    "numeroContenedor": { "type": "string" },
+                    "Posicion": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "codigoBarra": { "type": "string" },
+                          "tipoCodigo": { "type": "string" },
+                          "numeroPiezas": { "type": "string" },
+                          "unidadMedida": { "type": "string" },
+                          "piezasPorUnidad": { "type": "string" }
+                        },
+                        "required": [
+                          "codigoBarra",
+                          "tipoCodigo",
+                          "numeroPiezas",
+                          "unidadMedida",
+                          "piezasPorUnidad"
+                        ]
+                      }
+                    }
+                  },
+                  "required": ["tienda", "numeroContenedor", "Posicion"]
+                }
+              }
+            },
+            "required": [
+              "asn",
+              "fechaEmbarque",
+              "fechaEntrega",
+              "horaEntrega",
+              "proveedor",
+              "OrdenCompra",
+              "centroDistribucion",
+              "Cajas"
+            ]
+          }
+        }
+      },
+      "required": ["EnviaAsn"]
+    },
+    "firebaseData": {
+      "type": "object",
+      "properties": {
+        "encabezado": {
+          "type": "object",
+          "properties": {
+            "tipo_encabezado": { "type": "string" },
+            "tipo_operacion": { "type": "string" },
+            "blanco": { "type": "string" },
+            "fecha_factura": { "type": "string" },
+            "fecha_embarque": { "type": "string" },
+            "fecha_entrega": { "type": "string" },
+            "hora_entrega": { "type": "string" },
+            "no_provedor": { "type": "string" },
+            "rfc": { "type": "string" },
+            "no_orden": { "type": "string" },
+            "factura": { "type": "string" },
+            "importe_factura": { "type": "string" },
+            "id_categoria": { "type": "string" },
+            "no_cedis": { "type": "string" }
+          },
+          "required": [
+            "tipo_encabezado",
+            "tipo_operacion",
+            "blanco",
+            "fecha_factura",
+            "fecha_embarque",
+            "fecha_entrega",
+            "hora_entrega",
+            "no_provedor",
+            "rfc",
+            "no_orden",
+            "factura",
+            "importe_factura",
+            "id_categoria",
+            "no_cedis"
+          ]
+        },
+        "contenedores": { "type": "object" }
+      },
+      "required": ["encabezado", "contenedores"]
+    }
+  },
+  "required": ["cpi"]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "confirmaContrato": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ordenCompra": {
+                "type": "string"
+              },
+              "ordenVenta": {
+                "type": "string"
+              },
+              "fechaConfirmacion": {
+                "type": "string"
+              },
+              "fechaMensaje": {
+                "type": "string"
+              },
+              "detail": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "numeroEan": {
+                      "type": "string"
+                    },
+                    "numeroMaterial": {
+                      "type": "string"
+                    },
+                    "cantidadConfirmada": {
+                      "type": "string"
+                    },
+                    "fechaConfirmaPosicion": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numeroEan",
+                    "numeroMaterial",
+                    "cantidadConfirmada",
+                    "fechaConfirmaPosicion"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "ordenCompra",
+              "ordenVenta",
+              "fechaConfirmacion",
+              "fechaMensaje",
+              "detail"
+            ]
+          }
+        },
+        "contract_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "confirmaContrato",
+        "contract_id"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

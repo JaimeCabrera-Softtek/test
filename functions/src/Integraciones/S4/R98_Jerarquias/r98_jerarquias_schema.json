@@ -1,0 +1,100 @@
+{
+    "type": "object",
+    "properties": {
+        "Jerarquias": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "numero": {
+                            "type": "string"
+                        },
+                        "idioma": {
+                            "type": "string"
+                        },
+                        "texto": {
+                            "type": "string"
+                        },
+                        "E1WAH06": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "posicionNodo": {
+                                            "type": "string"
+                                        },
+                                        "idioma": {
+                                            "type": "string"
+                                        },
+                                        "textoExplicativo": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "posicionNodo",
+                                        "idioma",
+                                        "textoExplicativo"
+                                    ]
+                                }
+                            ],
+                            "minItems": 1
+                        },
+                        "E1WAH02": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "fechaCambio": {
+                                            "type": "string"
+                                        },
+                                        "nodo": {
+                                            "type": "string"
+                                        },
+                                        "nodoPadre": {
+                                            "type": "string"
+                                        },
+                                        "nivelNodo": {
+                                            "type": "string"
+                                        },
+                                        "descripcion": {
+                                            "type": "string"
+                                        },
+                                        "idioma": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "fechaCambio",
+                                        "nodo",
+                                        "nivelNodo",
+                                        "descripcion",
+                                        "idioma"
+                                    ]
+                                }
+                            ],
+                            "minItems": 1
+                        }
+                    },
+                    "required": [
+                        "id",
+                        "numero",
+                        "idioma",
+                        "texto",
+                        "E1WAH06",
+                        "E1WAH02"
+                    ]
+                }
+            ],
+            "minItems": 1
+        }
+    },
+    "required": [
+        "Jerarquias"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "firebaseData": {
+      "type": "object",
+      "properties": {
+        "encabezado": {
+          "type": "object",
+          "properties": {
+            "tipo_encabezado": { "type": "string" },
+            "tipo_operacion": { "type": "string" },
+            "blanco": { "type": "string" },
+            "fecha_factura": { "type": "string" },
+            "fecha_embarque": { "type": "string" },
+            "fecha_entrega": { "type": "string" },
+            "hora_entrega": { "type": "string" },
+            "no_provedor": { "type": "string" },
+            "rfc": { "type": "string" },
+            "no_orden": { "type": "string" },
+            "factura": { "type": "string" },
+            "importe_factura": { "type": "string" },
+            "id_categoria": { "type": "string" },
+            "no_cedis": { "type": "string" }
+          },
+          "required": [
+            "tipo_encabezado",
+            "tipo_operacion",
+            "blanco",
+            "fecha_factura",
+            "fecha_embarque",
+            "fecha_entrega",
+            "hora_entrega",
+            "no_provedor",
+            "rfc",
+            "no_orden",
+            "factura",
+            "importe_factura",
+            "id_categoria",
+            "no_cedis"
+          ]
+        },
+        "contenedores": { "type": "object" }
+      },
+      "required": ["encabezado", "contenedores"]
+    }
+  },
+  "required": ["firebaseData"]
+}

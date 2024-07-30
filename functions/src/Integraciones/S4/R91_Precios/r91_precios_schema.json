@@ -1,0 +1,99 @@
+{
+    "type": "object",
+    "properties": {
+        "Precios": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "organizacionVentas": {
+                            "type": "string"
+                        },
+                        "canalDistribucion": {
+                            "type": "string"
+                        },
+                        "claseCondicion": {
+                            "type": "string"
+                        },
+                        "numeroMaterial": {
+                            "type": "string"
+                        },
+                        "listadePrecios": {
+                            "type": "string"
+                        },
+                        "E1KONH": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "inicioValidez": {
+                                            "type": "string"
+                                        },
+                                        "finValidez": {
+                                            "type": "string"
+                                        },
+                                        "E1KONP": {
+                                            "type": "array",
+                                            "items": [
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "claseCondicion": {
+                                                            "type": "string"
+                                                        },
+                                                        "precioVenta": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "claseCondicion",
+                                                        "precioVenta"
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "claseCondicion": {
+                                                            "type": "string"
+                                                        },
+                                                        "precioVenta": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "claseCondicion",
+                                                        "precioVenta"
+                                                    ]
+                                                }
+                                            ],
+                                            "minItems": 1
+                                        }
+                                    },
+                                    "required": [
+                                        "inicioValidez",
+                                        "finValidez",
+                                        "E1KONP"
+                                    ]
+                                }
+                            ],
+                            "minItems": 1
+                        }
+                    },
+                    "required": [
+                        "organizacionVentas",
+                        "canalDistribucion",
+                        "claseCondicion",
+                        "numeroMaterial",
+                        "E1KONH"
+                    ]
+                }
+            ],
+            "minItems": 1
+        }
+    },
+    "required": [
+        "Precios"
+    ]
+}

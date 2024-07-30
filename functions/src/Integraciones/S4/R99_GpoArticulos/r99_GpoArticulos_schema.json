@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "GruposArticulos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "centro": {
+            "type": "string"
+          },
+          "fechaActivacion": {
+            "type": "string"
+          },
+          "fechaModificacion": {
+            "type": "string"
+          },
+          "numero": {
+            "type": "string"
+          },
+          "descripcion": {
+            "type": "string"
+          },
+          "numero2": {
+            "type": "string"
+          },
+          "enlaceGrupos": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "centro",
+          "fechaActivacion",
+          "fechaModificacion",
+          "numero",
+          "descripcion",
+          "numero2"
+        ]
+      }
+    }
+  },
+  "required": ["GruposArticulos"]
+}

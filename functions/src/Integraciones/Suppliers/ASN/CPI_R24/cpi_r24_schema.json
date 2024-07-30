@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+    "ConfirmaCantidadAsn": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "centro": { "type": "string" },
+          "unidadMedida": { "type": "string" },
+          "cantidad": { "type": "string" },
+          "fechaContabilizacion": { "type": "string" },
+          "fechaEntrega": { "type": "string" },
+          "fechaDocumento": { "type": "string" },
+          "pedido": { "type": "string" },
+          "posicionPedido": { "type": "string" },
+          "entrega": { "type": "string" },
+          "posicionEntrega": { "type": "string" },
+          "claseMovimiento": { "type": "string" },
+          "numeroMaterial": { "type": "string" },
+          "almacen": { "type": "string" },
+          "proveedor": { "type": "string" },
+          "indDebeHaber": { "type": "string" },
+          "texto": { "type": "string" },
+          "materialFabricante": { "type": "string" },
+          "textoCabeceraDocumento": { "type": "string" },
+          "cartaPorte": { "type": "string" },
+          "importeMontoLocal": { "type": "string" },
+          "horaEntrada": { "type": "string" },
+          "ean": { "type": "string" },
+          "estadoCabecera": { "type": "string" },
+          "estadoPosicion": { "type": "string" }
+        },
+        "required": [
+          "centro",
+          "unidadMedida",
+          "cantidad",
+          "fechaContabilizacion",
+          "fechaEntrega",
+          "fechaDocumento",
+          "pedido",
+          "posicionPedido",
+          "entrega",
+          "posicionEntrega",
+          "claseMovimiento",
+          "numeroMaterial",
+          "almacen",
+          "proveedor",
+          "indDebeHaber",
+          "cartaPorte",
+          "importeMontoLocal",
+          "horaEntrada",
+          "ean"
+        ]
+      }
+    }
+  },
+  "required": ["ConfirmaCantidadAsn"]
+}

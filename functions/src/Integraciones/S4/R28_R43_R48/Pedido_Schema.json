@@ -1,0 +1,261 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                "Pedido": {
+                    "type": "object",
+                    "properties": {
+                        "moneda": {
+                            "type": "string"
+                        },
+                        "condicionPago": {
+                            "type": "string"
+                        },
+                        "claseDocumento": {
+                            "type": "string"
+                        },
+                        "numeroDocumento": {
+                            "type": "string"
+                        },
+                        "organizacionCompras": {
+                            "type": "string"
+                        },
+                        "grupoCompras": {
+                            "type": "string"
+                        },
+                        "sociedad": {
+                            "type": "string"
+                        },
+                        "fechaDocumento": {
+                            "type": "string"
+                        },
+                        "inicioValidez": {
+                            "type": "string"
+                        },
+                        "finValidez": {
+                            "type": "string"
+                        },
+                        "nombreProveedor": {
+                            "type": "string"
+                        },
+                        "canal": {
+                            "type": "string"
+                        },
+                        "proveedor": {
+                            "type": "string"
+                        },
+                        "centroEntrega": {
+                            "type": "string"
+                        },
+                        "nombre": {
+                            "type": "string"
+                        },
+                        "direccion": {
+                            "type": "string"
+                        },
+                        "ciudad": {
+                            "type": "string"
+                        },
+                        "cp": {
+                            "type": "string"
+                        },
+                        "pais": {
+                            "type": "string"
+                        },
+                        "estado": {
+                            "type": "string"
+                        },
+                        "E1EDP01": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "posicion": {
+                                        "type": "string"
+                                    },
+                                    "accion": {
+                                        "type": "string"
+                                    },
+                                    "tipoPosicion": {
+                                        "type": "string"
+                                    },
+                                    "cantidad": {
+                                        "type": "string"
+                                    },
+                                    "unidadMedida": {
+                                        "type": "string"
+                                    },
+                                    "costoUnitario": {
+                                        "type": "string"
+                                    },
+                                    "precioNeto": {
+                                        "type": "string"
+                                    },
+                                    "grupoArticulos": {
+                                        "type": "string"
+                                    },
+                                    "centro": {
+                                        "type": "string"
+                                    },
+                                    "almacen": {
+                                        "type": "string"
+                                    },
+                                    "materialProveedor": {
+                                        "type": "string"
+                                    },
+                                    "numeroMaterial": {
+                                        "type": "string"
+                                    },
+                                    "descripcion": {
+                                        "type": "string"
+                                    },
+                                    "eanUpc": {
+                                        "type": "string"
+                                    },
+                                    "anoTemporada": {
+                                        "type": "string"
+                                    },
+                                    "temporada": {
+                                        "type": "string"
+                                    },
+                                    "color": {
+                                        "type": "string"
+                                    },
+                                    "talla": {
+                                        "type": "string"
+                                    },
+                                    "precioVenta": {
+                                        "type": "string"
+                                    },
+                                    "marca": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "posicion",
+                                    "accion",
+                                    "tipoPosicion",
+                                    "cantidad",
+                                    "unidadMedida",
+                                    "costoUnitario",
+                                    "precioNeto",
+                                    "grupoArticulos",
+                                    "centro",
+                                    "almacen",
+                                    "materialProveedor",
+                                    "numeroMaterial",
+                                    "descripcion",
+                                    "eanUpc",
+                                    "anoTemporada",
+                                    "temporada",
+                                    "color",
+                                    "talla",
+                                    "precioVenta",
+                                    "marca"
+                                ]
+                            }
+                        },
+                        "ZCROSSDOCKING": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "pedidoAlmacen": {
+                                        "type": "string"
+                                    },
+                                    "centro": {
+                                        "type": "string"
+                                    },
+                                    "ZCROSSDOCK": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "pedidoAlmacen": {
+                                                    "type": "string"
+                                                },
+                                                "posicion": {
+                                                    "type": "string"
+                                                },
+                                                "numeroMaterial": {
+                                                    "type": "string"
+                                                },
+                                                "descripcion": {
+                                                    "type": "string"
+                                                },
+                                                "cantidadPedida": {
+                                                    "type": "string"
+                                                },
+                                                "unidadMedida": {
+                                                    "type": "string"
+                                                },
+                                                "centro": {
+                                                    "type": "string"
+                                                },
+                                                "color": {
+                                                    "type": "string"
+                                                },
+                                                "talla": {
+                                                    "type": "string"
+                                                },
+                                                "ean": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "pedidoAlmacen",
+                                                "posicion",
+                                                "numeroMaterial",
+                                                "descripcion",
+                                                "cantidadPedida",
+                                                "unidadMedida",
+                                                "centro",
+                                                "color",
+                                                "talla",
+                                                "ean"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "required": [
+                                    "pedidoAlmacen",
+                                    "centro",
+                                    "ZCROSSDOCK"
+                                ]
+                            }
+                        }
+                    },
+                    "required": [
+                        "moneda",
+                        "condicionPago",
+                        "claseDocumento",
+                        "numeroDocumento",
+                        "organizacionCompras",
+                        "grupoCompras",
+                        "sociedad",
+                        "fechaDocumento",
+                        "inicioValidez",
+                        "finValidez",
+                        "nombreProveedor",
+                        "canal",
+                        "proveedor",
+                        "centroEntrega",
+                        "nombre",
+                        "direccion",
+                        "ciudad",
+                        "cp",
+                        "pais",
+                        "estado",
+                        "E1EDP01",
+                        "ZCROSSDOCKING"
+                    ]
+                }
+            },
+            "required": [
+                "Pedido"
+            ]
+        }
+    }
+}

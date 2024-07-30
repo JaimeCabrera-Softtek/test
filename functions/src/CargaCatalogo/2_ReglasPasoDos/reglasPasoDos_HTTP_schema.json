@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "catalog": {
+      "type": "string"
+    },
+    "isError": {
+      "type": "boolean"
+    }
+  },
+  "required": ["catalog"]
+}

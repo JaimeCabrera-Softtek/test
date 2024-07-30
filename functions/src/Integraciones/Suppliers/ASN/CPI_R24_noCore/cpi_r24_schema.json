@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "ConfirmaCantidadAsn": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "centro": { "type": "string" },
+          "unidadMedida": { "type": "string" },
+          "cantidad": { "type": "string" },
+          "fechaContabilizacion": { "type": "string" },
+          "fechaEntrega": { "type": "string" },
+          "fechaDocumento": { "type": "string" },
+          "pedido": { "type": "string" },
+          "posicionPedido": { "type": "string" },
+          "claseMovimiento": { "type": "string" },
+          "numeroMaterial": { "type": "string" },
+          "proveedor": { "type": "string" },
+          "indDebeHaber": { "type": "string" },
+          "texto": { "type": "string" },
+          "materialFabricante": { "type": "string" },
+          "textoCabeceraDocumento": { "type": "string" },
+          "importeMontoLocal": { "type": "string" },
+          "horaEntrada": { "type": "string" },
+          "estadoPosicion": { "type": "string" }
+        },
+        "required": [
+          "centro",
+          "unidadMedida",
+          "cantidad",
+          "fechaContabilizacion",
+          "fechaEntrega",
+          "fechaDocumento",
+          "pedido",
+          "posicionPedido",
+          "claseMovimiento",
+          "numeroMaterial",
+          "proveedor",
+          "indDebeHaber",
+          "importeMontoLocal",
+          "horaEntrada"
+        ]
+      }
+    }
+  },
+  "required": ["ConfirmaCantidadAsn"]
+}

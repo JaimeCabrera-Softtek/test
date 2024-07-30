@@ -1,0 +1,167 @@
+{
+  "type": "object",
+  "properties": {
+    "orderBook": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "soldToNumber": {
+            "type": "string"
+          },
+          "soldToName": {
+            "type": "string"
+          },
+          "shipToNumber": {
+            "type": "string"
+          },
+          "ShipToName": {
+            "type": "string"
+          },
+          "banner": {
+            "type": "string"
+          },
+          "tipoOrden": {
+            "type": "string"
+          },
+          "ordenCompraInnovasport": {
+            "type": "string"
+          },
+          "ordenCompraProveedor": {
+            "type": "string"
+          },
+          "temporada": {
+            "type": "string"
+          },
+          "marca": {
+            "type": "string"
+          },
+          "detail": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "mesFlujoProveedor": {
+                  "type": "string"
+                },
+                "rrd": {
+                  "type": "string"
+                },
+                "mesConfirmacion": {
+                  "type": "string"
+                },
+                "numeroMaterial": {
+                  "type": "string"
+                },
+                "generoProveedor": {
+                  "type": "string"
+                },
+                "divisionProveedor": {
+                  "type": "string"
+                },
+                "categoriaProveedor": {
+                  "type": "string"
+                },
+                "generoInnovasport": {
+                  "type": "string"
+                },
+                "divisionInnovasport": {
+                  "type": "string"
+                },
+                "categoriaInnovasport": {
+                  "type": "string"
+                },
+                "colorProveedor": {
+                  "type": "string"
+                },
+                "colorInnovasport": {
+                  "type": "string"
+                },
+                "eanUpc": {
+                  "type": "string"
+                },
+                "coCuNew": {
+                  "type": "string"
+                },
+                "mxSize": {
+                  "type": "string"
+                },
+                "usSize": {
+                  "type": "string"
+                },
+                "unidadEntrega": {
+                  "type": "string"
+                },
+                "cantidadConfirmada": {
+                  "type": "string"
+                },
+                "descuentoUnitario": {
+                  "type": "string"
+                },
+                "costoUnitarioInnovasportSinIva": {
+                  "type": "string"
+                },
+                "precioRetailUnitarioSinIva": {
+                  "type": "string"
+                },
+                "PrecioRetailUnitarioInteriorConIva": {
+                  "type": "string"
+                },
+                "MontoTotalCostoSinIva": {
+                  "type": "string"
+                },
+                "MontoTotalRetailSinIva": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "mesFlujoProveedor",
+                "rrd",
+                "mesConfirmacion",
+                "fechaEsperadaCedis",
+                "estiloProveedor",
+                "descripcionProveedor",
+                "numeroMaterial",
+                "generoProveedor",
+                "divisionProveedor",
+                "categoriaProveedor",
+                "generoInnovasport",
+                "divisionInnovasport",
+                "categoriaInnovasport",
+                "colorProveedor",
+                "colorInnovasport",
+                "eanUpc",
+                "coCuNew",
+                "mxSize",
+                "usSize",
+                "unidadEntrega",
+                "cantidadConfirmada",
+                "descuentoUnitario",
+                "costoUnitarioInnovasportSinIva",
+                "precioRetailUnitarioSinIva",
+                "PrecioRetailUnitarioInteriorConIva",
+                "MontoTotalCostoSinIva",
+                "MontoTotalRetailSinIva"
+              ]
+            }
+          }
+        },
+        "required": [
+          "soldToNumber",
+          "soldToName",
+          "shipToNumber",
+          "ShipToName",
+          "banner",
+          "tipoOrden",
+          "ordenCompraInnovasport",
+          "ordenCompraProveedor",
+          "temporada",
+          "marca"
+        ]
+      }
+    }
+  },
+  "required": [
+    "orderBook"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+    "data": {
+        "Precios": [
+            {
+                "organizacionVentas": "1001",
+                "canalDistribucion": "10",
+                "claseCondicion": "VKP0",
+                "numeroMaterial": "000000000007000016",
+                "listadePrecios": "xxx",
+                "E1KONH": [
+                    {
+                        "inicioValidez": "20240109",
+                        "finValidez": "99991231",
+                        "E1KONP": [
+                            {
+                                "claseCondicion": "VKP0",
+                                "precioVenta": "100.00"
+                            },
+                            {
+                                "claseCondicion": "VKP1",
+                                "precioVenta": "121.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "organizacionVentas": "1002",
+                "canalDistribucion": "10",
+                "claseCondicion": "VKP0",
+                "numeroMaterial": "000000000007000016",
+                "listadePrecios": "xxx",
+                "E1KONH": [
+                    {
+                        "inicioValidez": "20240109",
+                        "finValidez": "99991231",
+                        "E1KONP": [
+                            {
+                                "claseCondicion": "VKP0",
+                                "precioVenta": "100.00"
+                            },
+                            {
+                                "claseCondicion": "VKP1",
+                                "precioVenta": "121.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

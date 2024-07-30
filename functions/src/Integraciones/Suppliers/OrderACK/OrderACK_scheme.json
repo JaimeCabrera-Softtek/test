@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "RecibeOrderAck": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ordenCompraInnova": {
+                "type": "string"
+              },
+              "ordenVentaProveedor": {
+                "type": "string"
+              },
+              "fechaConfirmacion": {
+                "type": "string"
+              },
+              "fechaMensaje": {
+                "type": "string"
+              },
+              "detail": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "eanUpc": {
+                      "type": "string"
+                    },
+                    "numeroMaterial": {
+                      "type": "string"
+                    },
+                    "cantidadConfirmada": {
+                      "type": "string"
+                    },
+                    "fechaConfirmacion": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "eanUpc",
+                    "numeroMaterial",
+                    "cantidadConfirmada",
+                    "fechaConfirmacion"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "ordenCompraInnova",
+              "ordenVentaProveedor",
+              "fechaConfirmacion",
+              "fechaMensaje",
+              "detail"
+            ]
+          }
+        },
+        "order_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "RecibeOrderAck",
+        "order_id"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
